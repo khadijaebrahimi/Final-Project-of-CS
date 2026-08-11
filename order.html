@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Foodi Hub</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+        background: white;
+        color: black;
+      }
+      header {
+        background: whitesmoke;
+        box-shadow: 0 2px 10px gray;
+      }
+
+      .head {
+        width: 90%;
+        margin: auto;
+        padding: 18px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .head h1 {
+        margin: 0;
+        color: black;
+        font-size: 30px;
+      }
+
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+      }
+
+      nav a:hover {
+        color: bisque;
+      }
+
+      #order {
+        width: 90%;
+        margin: 40px auto;
+      }
+
+      #order h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: black;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .photo img {
+        width: 350px;
+        height: 450px;
+        border-radius: 15px;
+        object-fit: cover;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .order-box {
+        width: 350px;
+        padding: 25px;
+        background: whitesmoke;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .order-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+      }
+
+      .order-box p {
+        margin: 12px 0 6px;
+        font-weight: bold;
+      }
+
+      .order-box input[type="text"],
+      .order-box input[type="number"],
+      .order-box textarea,
+      .order-box select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+
+      .order-box textarea {
+        height: 70px;
+        resize: none;
+      }
+      .order-box input[type="radio"] {
+        margin-right: 5px;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 15px;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: wheat;
+      }
+    </style>
+  </head>
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Foodie Hub - Order</title>
+    </head>
+
+    <body>
+      <header>
+        <div class="head">
+          <h1>Foodie Hub</h1>
+
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order Meals</a>
+            <a href="Contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <section id="order">
+        <h1>Place your orders:</h1>
+
+        <div class="form">
+          <div class="photo">
+            <img
+              src="https://image.made-in-china.com/202f0j00WiguEahzoVrG/Restaurant-Fast-Food-Ordering-24-32-Android-Self-Checkout-Serve-POS-Machines.webp"
+              alt="Food Ordering Machine"
+            />
+          </div>
+
+          <div class="order-box">
+            <h2>Place Your Order</h2>
+
+            <form id="orderForm">
+              <p>Name</p>
+              <input type="text" placeholder="Your name" id="name" required />
+
+              <p>Phone Number</p>
+              <input
+                type="text"
+                placeholder="01XXXXXXXXX"
+                id="phonenumber"
+                required
+              />
+
+              <p>Address</p>
+              <textarea
+                placeholder="Enter your address"
+                id="address"
+                required
+              ></textarea>
+
+              <p>Food Item</p>
+              <select id="food">
+                <option>Pizza</option>
+                <option>Pasta</option>
+                <option>Burger</option>
+                <option>Lasagna</option>
+              </select>
+
+              <p>Quantity</p>
+              <input type="number" value="1" id="quantity" min="1" />
+
+              <p>Payment Method</p>
+
+              <input type="radio" name="pay" value="Cash" /> Cash
+              <input type="radio" name="pay" value="bKash" /> bKash
+              <input type="radio" name="pay" value="Nagad" /> Nagad
+
+              <br /><br />
+
+              <button type="submit" id="submit">Place Order</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+</html>
