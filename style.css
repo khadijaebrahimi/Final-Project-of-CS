@@ -1,0 +1,284 @@
+Details * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(100%);
+}
+.head {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  z-index: 10;
+}
+.head h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffb703;
+}
+header h1 {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2;
+  max-width: 800px;
+  width: 90%;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+#C {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 20px 20px;
+  margin: 10px auto;
+  text-align: justify;
+  border-radius: 10px;
+}
+#D {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  border: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 15px;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 600px;
+  width: auto;
+}
+#F img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#F {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  transition: 0.3;
+  box-shadow: 5px 8px 10px black;
+}
+#F:hover {
+  width: 320px;
+  height: 420px;
+  background-color: whitesmoke;
+}
+
+#G img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#G {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  transition: 0.3;
+  box-shadow: 5px 8px 10px black;
+}
+#G:hover {
+  width: 320px;
+  height: 420px;
+  background-color: whitesmoke;
+}
+
+#H img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#H {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5px;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  transition: 0.3;
+  box-shadow: 5px 8px 10px black;
+}
+#H:hover {
+  width: 320px;
+  height: 420px;
+  background-color: whitesmoke;
+}
+#a h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding: 15px;
+}
+#a p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+#I {
+  width: auto;
+  height: 90%;
+  gap: 40px;
+  padding: 30px;
+  margin: 30px;
+  background-color: whitesmoke;
+}
+#b {
+  display: flex;
+  gap: 30px;
+}
+#c {
+  display: block;
+  gap: 20px;
+  display: flex;
+}
+
+#Ar {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 50px;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#ww img {
+  width: 100%;
+  height: 230px;
+  display: block;
+  margin: 0 auto;
+}
+#ww {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5;
+  overflow: hidden;
+  width: 270px;
+  height: 400px;
+  transition: 0.2;
+  box-shadow: 3px 4px 5px gray;
+}
+#ww:hover {
+  width: 290px;
+  height: 420px;
+}
+
+#qq img {
+  width: 100%;
+  height: 230px;
+  display: block;
+  margin: 0 auto;
+}
+#qq {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5;
+  overflow: hidden;
+  width: 270px;
+  height: 400px;
+  transition: 0.2;
+  box-shadow: 3px 4px 5px gray;
+}
+#qq:hover {
+  width: 290px;
+  height: 420px;
+}
+
+#kk img {
+  width: 100%;
+  height: 230px;
+  display: block;
+  margin: 0 auto;
+}
+#kk {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5;
+  overflow: hidden;
+  width: 270px;
+  height: 400px;
+  transition: 0.2;
+  box-shadow: 3px 4px 5px gray;
+}
+#kk:hover {
+  width: 290px;
+  height: 420px;
+}
+
+/*footer*/
+footer {
+  background: whitesmoke;
+  padding: 30px 20px;
+  text-align: center;
+  display: block;
+}
+
+.footer h5 {
+  color: black;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  font-weight: bold;
+}
+
+.text {
+  color: black;
+  margin-top: 20px;
+  font-size: 14px;
+}
